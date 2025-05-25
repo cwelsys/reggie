@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\WinRAR\shell\open\command]
+@="\"C:\\Program Files\\WinRAR\\WinRAR.exe\" x \"%1\""
+
+[HKEY_CLASSES_ROOT\WinRAR.ZIP\shell\open\command]
+@="\"C:\\Program Files\\WinRAR\\WinRAR.exe\" x \"%1\""

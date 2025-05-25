@@ -1,0 +1,98 @@
+Windows Registry Editor Version 5.00
+
+; This registry file moves the user's folders from This PC back to the user folder.
+;
+; What exactly does this change? I'm glad you asked.
+; - Folders will be under your user in Explorer (e.g. Aubrey > Pictures instead of This PC > Pictures)
+; - Navigating inside these folders will not randomly add them back to This PC on the namespace tree if you
+; have removed them from This PC.
+;
+; Have fun!!
+;
+; by aubymori, 2024/01/05
+
+; BEGIN 64-BIT
+
+; Desktop
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{754AC886-DF64-4CBA-86B5-F7FBF4FBCEF5}]
+"ParsingName"="shell:::{59031a47-3f72-44a7-89c5-5595fe6b30ee}\\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}"
+
+; Documents
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}]
+"ParsingName"="shell:::{59031a47-3f72-44a7-89c5-5595fe6b30ee}\\{d3162b92-9365-467a-956b-92703aca08af}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{FDD39AD0-238F-46AF-ADB4-6C85480369C7}]
+"ParsingName"="shell:::{59031a47-3f72-44a7-89c5-5595fe6b30ee}\\{A8CDFF1C-4878-43be-B5FD-F8091C1C60D0}"
+
+; Downloads
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{374DE290-123F-4565-9164-39C4925E467B}]
+"ParsingName"="shell:::{59031a47-3f72-44a7-89c5-5595fe6b30ee}\\{374DE290-123F-4565-9164-39C4925E467B}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7d83ee9b-2244-4e70-b1f5-5393042af1e4}]
+"ParsingName"="shell:::{59031a47-3f72-44a7-89c5-5595fe6b30ee}\\{088e3905-0323-4b02-9826-5d99428e115f}"
+
+; Music
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}]
+"ParsingName"="shell:::{59031a47-3f72-44a7-89c5-5595fe6b30ee}\\{3dfdf296-dbec-4fb4-81d1-6a3438bcf4de}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{4BD8D571-6D19-48D3-BE97-422220080E43}]
+"ParsingName"="shell:::{59031a47-3f72-44a7-89c5-5595fe6b30ee}\\{1CF1260C-4DD0-4EBB-811F-33C572699FDE}"
+
+; Pictures
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}]
+"ParsingName"="shell:::{59031a47-3f72-44a7-89c5-5595fe6b30ee}\\{33E28130-4E1E-4676-835A-98395C3BC3BB}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{33E28130-4E1E-4676-835A-98395C3BC3BB}]
+"ParsingName"="shell:::{59031a47-3f72-44a7-89c5-5595fe6b30ee}\\{33E28130-4E1E-4676-835A-98395C3BC3BB}"
+
+; Videos
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{18989B1D-99B5-455B-841C-AB7C74E4DDFC}]
+"ParsingName"="shell:::{59031a47-3f72-44a7-89c5-5595fe6b30ee}\\{A0953C92-50DC-43BF-BE83-3742FED03C9C}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}]
+"ParsingName"="shell:::{59031a47-3f72-44a7-89c5-5595fe6b30ee}\\{f86fa3ab-70d2-4fc7-9c99-fcbf05467f3a}"
+
+; END 64-BIT
+
+; BEGIN 32-BIT
+
+; Desktop
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{754AC886-DF64-4CBA-86B5-F7FBF4FBCEF5}]
+"ParsingName"="shell:::{59031a47-3f72-44a7-89c5-5595fe6b30ee}\\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}"
+
+; Documents
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{f42ee2d3-909f-4907-8871-4c22fc0bf756}]
+"ParsingName"="shell:::{59031a47-3f72-44a7-89c5-5595fe6b30ee}\\{d3162b92-9365-467a-956b-92703aca08af}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{FDD39AD0-238F-46AF-ADB4-6C85480369C7}]
+"ParsingName"="shell:::{59031a47-3f72-44a7-89c5-5595fe6b30ee}\\{A8CDFF1C-4878-43be-B5FD-F8091C1C60D0}"
+
+; Downloads
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{374DE290-123F-4565-9164-39C4925E467B}]
+"ParsingName"="shell:::{59031a47-3f72-44a7-89c5-5595fe6b30ee}\\{374DE290-123F-4565-9164-39C4925E467B}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7d83ee9b-2244-4e70-b1f5-5393042af1e4}]
+"ParsingName"="shell:::{59031a47-3f72-44a7-89c5-5595fe6b30ee}\\{088e3905-0323-4b02-9826-5d99428e115f}"
+
+; Music
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{a0c69a99-21c8-4671-8703-7934162fcf1d}]
+"ParsingName"="shell:::{59031a47-3f72-44a7-89c5-5595fe6b30ee}\\{3dfdf296-dbec-4fb4-81d1-6a3438bcf4de}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{4BD8D571-6D19-48D3-BE97-422220080E43}]
+"ParsingName"="shell:::{59031a47-3f72-44a7-89c5-5595fe6b30ee}\\{1CF1260C-4DD0-4EBB-811F-33C572699FDE}"
+
+; Pictures
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{0ddd015d-b06c-45d5-8c4c-f59713854639}]
+"ParsingName"="shell:::{59031a47-3f72-44a7-89c5-5595fe6b30ee}\\{33E28130-4E1E-4676-835A-98395C3BC3BB}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{33E28130-4E1E-4676-835A-98395C3BC3BB}]
+"ParsingName"="shell:::{59031a47-3f72-44a7-89c5-5595fe6b30ee}\\{33E28130-4E1E-4676-835A-98395C3BC3BB}"
+
+; Videos
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{18989B1D-99B5-455B-841C-AB7C74E4DDFC}]
+"ParsingName"="shell:::{59031a47-3f72-44a7-89c5-5595fe6b30ee}\\{A0953C92-50DC-43BF-BE83-3742FED03C9C}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{35286a68-3c57-41a1-bbb1-0eae73d76c95}]
+"ParsingName"="shell:::{59031a47-3f72-44a7-89c5-5595fe6b30ee}\\{f86fa3ab-70d2-4fc7-9c99-fcbf05467f3a}"
+
+; END 32-BIT
